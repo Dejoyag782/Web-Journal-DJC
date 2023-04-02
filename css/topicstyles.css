@@ -1,0 +1,116 @@
+@font-face {
+  font-family: pFont;
+  src: url(sansation_light.woff);
+}
+body{
+    text-align: center;
+    align-items: center;
+    background-color: #111443;
+}
+header {
+			text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111443;
+    padding: 5px;
+    color: skyblue;
+    padding: 0 0 10px 20px;
+    border-width: 0 0 5px 0;
+    border-color: grey;
+    border-style: solid;
+    
+    /*to make it stick at top*/
+    margin: 0 0 10px -10px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    
+    
+}
+header div{
+    text-align: center;
+    align-items: center;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding-right: 20px;
+	
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #95f5ff;
+	padding: 10px;
+	border-radius: 5px;
+	transition: background-color 0.2s ease;
+}
+
+nav ul li a:hover {
+	background-color: gray;
+}
+
+main {
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+    border-width: 5px;
+    padding: 10px 2px 10px 2px;
+    background-color: #111443 ;
+    margin-top: 150px;
+    color: #00ffff;
+    border-color: gray;
+}
+.contents h1{
+    text-align: center;
+    margin: auto;
+    margin: 5px;
+}
+.contents section{
+    text-align: left;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin: 10px 5px 5px 5px;
+    border-color: #0c148e;
+    background-color: gray;
+    
+}
+.contents p{
+    text-align: justify;
+    color: whitesmoke;
+    margin: 0 9px 15px 10px;
+    font-size: 12pt;
+    font-family: pFont;
+}
+.contents a{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: #bfeaff;
+    
+}
+.contents a section:hover{
+    text-decoration: none;
+    text-decoration-color: black;
+    color: yellowgreen;
+    border-color: yellowgreen;
+    background-color: yellow;
+    padding: 10px;
+}
+.contents a section p:hover{
+    color: sienna;
+}
+footer{
+			margin: 120px 20px 20px 20px;
+    color: white;
+    padding: 0 0 50px 0;
+}
